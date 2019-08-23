@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript CRUD application</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+</head>
+<body>
+	<div class="container">
+	    <!-- inserting product -->
+		<div class="row add-prod">
+			<div class="col-md-12">
+			    <h4 class="jsTitle">Javascript CRUD Application</h4>
+				<h4>ADD PRODUCT</h4>
+			</div>
+			<div class="col-md-10">
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" id="insProduct" name='name' placeholder="write product name">
+					</div>
+				</form>
+			</div>
+			<div class="col-md-2 col-xs-12">
+				<button type="button" class="btn btn-primary" id="addProduct" onclick="addprod();">ADD PRODUCT</button>
+			</div>
+		</div>
+        <!-- listing product -->
+		<div class="row">
+			<div class="col-md-12">
+				<h4>PRODUCT LIST</h4>
+			</div>
+			<div id="prodItemList">
+				<!-- <div class="col-md-6 col-sm-6 col-xs-12">
+					<input type="text" disabled class="form-control list-prod" id="prodName"  placeholder="write product name">
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-4">
+					<button type="button" class="btn btn-success list-prod" onclick="edit();" id="edit">EDIT</button>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-4">
+					<button type="button" class="btn btn-success list-prod" onclick="update();" id="update">UPDATE</button>
+				</div>
+				<div class="col-md-2 col-sm-2 col-xs-4">
+					<button type="button" class="btn btn-danger list-prod" onclick="deletedata();" id="delete">DELETE</button>
+				</div> -->
+			</div>
+	    </div>
+	</div>
+
+	<script src="main.js"> </script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+body{
+	font-family: monospace;
+}
+.container{
+	margin-top:50px;
+}
+
+.btn{
+	width: 100%;
+}
+.btn, .form-control{
+	border-radius: 0px;
+}
+
+.add-prod{
+	margin-bottom:50px;
+}
+
+h4{
+	color:#337ab7;
+}
+.list-prod{
+	margin-bottom:10px;
+	cursor:default !important;
+}
+h4.jsTitle{
+	background: #337ab7;
+    color: #fff;
+    padding: 20px 10px;
+    margin-bottom:50px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+}
+.prodItemList{overflow: auto;}
